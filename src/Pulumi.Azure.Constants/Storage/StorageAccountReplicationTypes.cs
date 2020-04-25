@@ -4,7 +4,7 @@ namespace Pulumi.Azure.Constants
     /// <summary>
     /// Defines the type of replication to use for this storage account.
     /// </summary>
-    public static class AccountReplicationTypes
+    public static class StorageAccountReplicationTypes
     {
         public const string LRS = nameof(LRS);
         public const string LocallyRedundantStorage = LRS;

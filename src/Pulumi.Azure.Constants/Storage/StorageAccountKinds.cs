@@ -5,7 +5,7 @@ namespace Pulumi.Azure.Constants
     /// Defines the Kind of account. Valid options are `BlobStorage`, `BlockBlobStorage`, `FileStorage`, `Storage` and `StorageV2`.
     /// Changing this forces a new resource to be created. Defaults to `StorageV2`.
     /// </summary>
-    public static class AccountKinds
+    public static class StorageAccountKinds
     {
         public const string BlobStorage = nameof(BlobStorage);
 

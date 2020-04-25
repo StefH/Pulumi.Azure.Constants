@@ -4,7 +4,7 @@ namespace Pulumi.Azure.Constants
     /// <summary>
     /// Defines the access tier for `BlobStorage`, `FileStorage` and `StorageV2` accounts.
     /// </summary>
-    public static class AccessTiers
+    public static class StorageAccessTiers
     {
         public const string Hot = nameof(Hot);
 
