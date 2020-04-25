@@ -6,7 +6,7 @@ Additional constants for creating and configuring Microsoft Azure resources with
 ## Usage
 
 ### Current
-Instead of using custom strings when creating an 
+Instead of using custom strings when creating a resource:
 ``` c#
 var storageAccount = new Account("test", new AccountArgs
 {
