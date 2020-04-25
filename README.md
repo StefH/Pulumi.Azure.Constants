@@ -1,8 +1,7 @@
+[![NuGet](https://buildstats.info/nuget/Pulumi.Azure.Constants)](https://www.nuget.org/packages/Pulumi.Azure.Constants)
+
 # Pulumi.Azure.Constants
 Additional constants for creating and configuring Microsoft Azure resources with Pulumi.Azure
-
-## NuGet
-[![NuGet](https://buildstats.info/nuget/Pulumi.Azure.Constants)](https://www.nuget.org/packages/Pulumi.Azure.Constants)
 
 ## Usage
 
