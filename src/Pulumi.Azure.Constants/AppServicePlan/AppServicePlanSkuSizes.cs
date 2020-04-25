@@ -4,7 +4,7 @@ namespace Pulumi.Azure.Constants
     /// <summary>
     /// Specifies the plan's instance size.
     /// </summary>
-    public static class PlanSkuArgsSizes
+    public static class AppServicePlanSkuSizes
     {
         public const string F1 = nameof(F1);
 

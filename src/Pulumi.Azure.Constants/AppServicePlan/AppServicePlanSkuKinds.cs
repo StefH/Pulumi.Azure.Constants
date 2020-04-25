@@ -4,7 +4,7 @@ namespace Pulumi.Azure.Constants
     /// <summary>
     /// The kind of the App Service Plan to create.
     /// </summary>
-    public static class PlanSkuKinds
+    public static class AppServicePlanSkuKinds
     {
         public const string Windows = nameof(Windows);
 

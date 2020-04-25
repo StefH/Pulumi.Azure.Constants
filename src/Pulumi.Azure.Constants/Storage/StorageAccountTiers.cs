@@ -4,7 +4,7 @@ namespace Pulumi.Azure.Constants
     /// <summary>
     /// Defines the Tier to use for this storage account.
     /// </summary>
-    public static class AccountTiers
+    public static class StorageAccountTiers
     {
         public const string Standard = nameof(Standard);
 

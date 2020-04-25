@@ -22,8 +22,8 @@ With this package, you can easily use constants:
 var storageAccount = new Account("test", new AccountArgs
 {
     ResourceGroupName = resourceGroup.Name,
-    AccountReplicationType = AccountReplicationTypes.LocallyRedundantStorage, // You can now use a constant string here
-    AccountTier = AccountTiers.Standard // You can now use a constant string here
+    AccountReplicationType = StorageAccountReplicationTypes.LocallyRedundantStorage, // You can now use a constant here
+    AccountTier = StorageAccountTiers.Standard // You can now use a constant here
 });
 ```
 
@@ -34,6 +34,7 @@ Constants are defined for the following resources:
 - AppServicePlan
 - Blob
 - ConfigurationStore (AppConfiguration)
+- Cognitive (CognitiveServices)
 - Container
 - FunctionApp
 - Insights (ApplicationInsights)
