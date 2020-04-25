@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net20;netstandard1.0</TargetFrameworks>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <Description>Additional constants for creating and configuring Microsoft Azure resources with Pulumi.Azure</Description>
+    <PackageTags>Pulumi;Azure;Microsoft;Constants</PackageTags>
+    <ProjectGuid>{C7F2E3E7-05CE-4409-AC94-A0557B5B8C12}</ProjectGuid>
+  </PropertyGroup>
+
+</Project>
