@@ -2,11 +2,10 @@
 namespace Pulumi.Azure.Constants
 {
     /// <summary>
-    /// All Function App Docker versions (Linux and Windows) which are supported.
+    /// Linux App Framework and version for the AppService, e.g. `DOCKER|mcr.microsoft.com/azure-functions/dotnet:3.0`.
     /// </summary>
-    public static class FunctionAppDockerVersions
+    public static class FunctionAppSiteConfigLinuxFxVersions
     {
-        #region Linux
         public const string DotNetV2 = "DOCKER|mcr.microsoft.com/azure-functions/dotnet:2.0";
 
         public const string DotNetV3 = "DOCKER|mcr.microsoft.com/azure-functions/dotnet:3.0";
@@ -16,14 +15,5 @@ namespace Pulumi.Azure.Constants
         public const string PowerShellV2 = "DOCKER|mcr.microsoft.com/azure-functions/powershell:2.0";
 
         public const string PythonV2 = "DOCKER|mcr.microsoft.com/azure-functions/python:2.0";
-        #endregion
-
-        #region Windows
-        public const string DotNetV2NanoServer1709 = "DOCKER|mcr.microsoft.com/azure-functions/dotnet:2.0-nanoserver-1709";
-
-        public const string DotNetV2NanoServer1803 = "DOCKER|mcr.microsoft.com/azure-functions/dotnet:2.0-nanoserver-1803";
-
-        public const string DotNetV2NanoServer1809 = "DOCKER|mcr.microsoft.com/azure-functions/dotnet:2.0-nanoserver-1809";
-        #endregion
     }
 }
