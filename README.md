@@ -36,6 +36,7 @@ Constants are defined for the following resources:
 - ConfigurationStore (AppConfiguration)
 - Cognitive (CognitiveServices)
 - Container
+- Core (ResourceGroup)
 - FunctionApp
 - Insights (ApplicationInsights)
 - Storage
